@@ -8,7 +8,7 @@ For the first question:
 
 I found:
 
-| # Bigs | # Solved | # Attempted | Success Rate |
+| # Bigs | Solvable Games | Games Played | Success Rate |
 |--------|----------|-------------|--------------|
 | 0      | 1329626  | 1585218     | 0.838765     |
 | 1      | 1546962  | 1582761     | 0.977382     |
@@ -25,7 +25,7 @@ For the second question:
 <details>
   <summary>Full 3 Digit Table</summary>
 
-|    target |   nSolved |   nAttempted | Success Rate |
+|    target |   Solvable Games |   Games Played | Success Rate |
 | ---------:|----------:|-------------:|----------:|
 |       100 |      8572 |         8572 |  1        |
 |       101 |      8842 |         8842 |  1        |

@@ -25,7 +25,7 @@ For the second question:
 <details>
   <summary>Full 3 Digit Table</summary>
 
-|    target |   nSolved |   nAttempted |   success |
+|    target |   nSolved |   nAttempted | Success Rate |
 | ---------:|----------:|-------------:|----------:|
 |       100 |      8572 |         8572 |  1        |
 |       101 |      8842 |         8842 |  1        |

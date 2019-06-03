@@ -16,7 +16,7 @@ I found:
 | 3      | 1499468  | 1582761     | 0.947375     |
 | 4      | 1434659  | 1585713     | 0.904741     |
 
-Which implies that 2 big numbers are the best, with 98% of all boards being solvable. 4 big numbers was the worst, with only 90% of boards being solvable.
+Which implies that 2 big numbers are the best, with 98.2% of all boards being solvable followed by 1 big number (97.7%), 3 big numbers (94.7%), 4 big numbers (90.5%) and 0 big numbers (83.9%). This kinda makes sense, the big numbers can jump you to the upper hundreds where you can use the rest of your numbers fine tuning your answer.
 
 For the second question:
 
@@ -933,5 +933,16 @@ For the second question:
 The most successful 3 digit numbers are 100,101,102,108,112,114,121,125,140,145,152 which had a successful solve for combination of numbers I tried. The least successful were 961 and 967 down at around 70% success.
 
 # Extension
-We can keep track of the number of big numbers and the target number jointly to understand how they affect eachother. 
+What if we are interested breaking down target numbers vs # of big numbers? Below is a plot of the success rate vs target number for each of the big numbers.
 ![Target vs Number of Big Numbers](joint.png)
+ You can see that 0 big numbers really suffers as you go to higher target numbers, the minimum for this was 0 big numbers trying to hit 997, with only 35% of games being solvable. Conversely 2 big numbers holds up pretty well.
+
+My rationale here is again, that you burn a lot of small numbers to get up to the 900 range, then don't have many left to fine tune your answer.
+
+## Repo Details
+This code is really thrown together, you're on your own.
+
+- One.java: Solves one case, takes the numbers on the command line and prints out how to solve it
+- Countdown.java: Draws games randomly to get stats on the solvability rates. Used to generate the tables below
+- Solver.java: The actual solver for a single case
+- analyze.py: Used to run a bit of data analysis

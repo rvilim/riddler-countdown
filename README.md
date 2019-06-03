@@ -5,7 +5,9 @@ I used the solver found at (https://www.cs.ox.ac.uk/admissions/undergraduate/cou
 
 For the first question:
 > What number of “large” cards is most likely to produce a solvable game and what number of “large” cards is least likely to be solvable?
+
 I found:
+
 | # Bigs | # Solved | # Attempted | Success Rate |
 |--------|----------|-------------|--------------|
 | 0      | 1329626  | 1585218     | 0.838765     |
@@ -17,7 +19,9 @@ I found:
 Which implies that 2 big numbers are the best, with 98% of all boards being solvable. 4 big numbers was the worst, with only 90% of boards being solvable.
 
 For the second question:
+
 > What three-digit numbers are most or least likely to be solvable?
+
 <details>
   <summary>Full 3 Digit Table</summary>
 |    target |   nSolved |   nAttempted |   success |

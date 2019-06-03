@@ -24,6 +24,7 @@ def main():
         # print(row['target'], row['nBig'])
         a[int(row['nBig']), int(row['target'])-100]=row['success']
 
+    print(df_target.sort_values('success'))
     fig = plt.figure()
     ax = plt.subplot(111)
     for i in [0,3,4,2,1,]:

@@ -24,6 +24,7 @@ For the second question:
 
 <details>
   <summary>Full 3 Digit Table</summary>
+
 |    target |   nSolved |   nAttempted |   success |
 | ---------:|----------:|-------------:|----------:|
 |       100 |      8572 |         8572 |  1        |
@@ -926,6 +927,7 @@ For the second question:
 |       997 |      7010 |         8837 |  0.793256 |
 |       998 |      7056 |         8630 |  0.817613 |
 |       999 |      7595 |         8696 |  0.87339  |
+
 </details>
 
 The most successful 3 digit numbers are 100,101,102,108,112,114,121,125,140,145,152 which had a successful solve for combination of numbers I tried. The least successful were 961 and 967 down at around 70% success.
